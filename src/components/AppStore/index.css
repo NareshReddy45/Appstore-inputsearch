@@ -1,0 +1,42 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 120vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: 'Bree Serif';
+}
+
+.search-container {
+  position: relative;
+  width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 40px; /* Space for icon */
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* Allows clicks to go through the icon to the input */
+}
